@@ -1,0 +1,9 @@
+qmesh.egg-info
+setup.cfg
+build
+dist
+tests/lines*
+tests/polygons*
+tests/shapes*
+tests/qgis.db
+tests/unit/*.pyc

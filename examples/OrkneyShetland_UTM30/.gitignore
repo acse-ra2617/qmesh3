@@ -1,0 +1,12 @@
+#Gmsh files
+*.geo
+*.fld
+*.msh
+#Qgis files
+qgis.db
+*.qgs~
+*.nc
+*.grd
+#GMT configuration files
+gmt.*
+#Misc

@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="architectureSchematic.pdf"
+   inkscape:export-filename="/home/christian/renewablesmeshingpaper/paper/figures/architectureSchematic/architectureSchematic.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4034">
+      <stop
+         style="stop-color:#1a9635;stop-opacity:1;"
+         offset="0"
+         id="stop4036" />
+      <stop
+         style="stop-color:#24cf49;stop-opacity:1;"
+         offset="1"
+         id="stop4038" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3876">
+      <stop
+         style="stop-color:#ff4343;stop-opacity:1;"
+         offset="0"
+         id="stop3878" />
+      <stop
+         style="stop-color:#ff8585;stop-opacity:1;"
+         offset="1"
+         id="stop3880" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3856">
+      <stop
+         style="stop-color:#f0a5a5;stop-opacity:1;"
+         offset="0"
+         id="stop3858" />
+      <stop
+         style="stop-color:#f8d3d3;stop-opacity:1;"
+         offset="1"
+         id="stop3860" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3848">
+      <stop
+         style="stop-color:#2ba329;stop-opacity:1;"
+         offset="0"
+         id="stop3850" />
+      <stop
+         style="stop-color:#91ed8f;stop-opacity:1;"
+         offset="1"
+         id="stop3852" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3840">
+      <stop
+         style="stop-color:#1bff00;stop-opacity:1;"
+         offset="0"
+         id="stop3842" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3844" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3804">
+      <stop
+         style="stop-color:#434343;stop-opacity:1;"
+         offset="0"
+         id="stop3806" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="1"
+         id="stop3808" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3856"
+       id="linearGradient3862"
+       x1="205"
+       y1="222.36218"
+       x2="435"
+       y2="152.36218"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(80,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3876"
+       id="linearGradient3927"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(8.5625,-130.43483)"
+       x1="200"
+       y1="292.36218"
+       x2="250"
+       y2="272.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3876"
+       id="linearGradient3936"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(6,15.000016)"
+       x1="200"
+       y1="292.36215"
+       x2="295"
+       y2="272.36215" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3876"
+       id="linearGradient3945"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(115,10.000016)"
+       x1="200"
+       y1="292.36215"
+       x2="250"
+       y2="272.36215" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3876"
+       id="linearGradient3956"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(240,10.000016)"
+       x1="200"
+       y1="292.36215"
+       x2="295"
+       y2="272.36215" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3848"
+       id="linearGradient4008"
+       gradientUnits="userSpaceOnUse"
+       x1="20"
+       y1="237.36218"
+       x2="175"
+       y2="157.36218"
+       gradientTransform="translate(-50,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3804"
+       id="linearGradient4010"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-130,0)"
+       x1="635"
+       y1="237.36218"
+       x2="695"
+       y2="167.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3876"
+       id="linearGradient4107"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(205,-84.999981)"
+       x1="200"
+       y1="292.36215"
+       x2="295"
+       y2="272.36215" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.7687423"
+     inkscape:cx="315.4055"
+     inkscape:cy="858.16413"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1598"
+     inkscape:window-height="811"
+     inkscape:window-x="0"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="70,990"
+       id="guide2987" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="730,910"
+       id="guide2989" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="170,895"
+       id="guide2995" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="170,815"
+       id="guide3947" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       ry="15"
+       y="152.36218"
+       x="270"
+       height="90"
+       width="245"
+       id="rect3018"
+       style="fill:url(#linearGradient3862);fill-opacity:1;stroke:none" />
+    <g
+       id="g4001"
+       transform="translate(130,-4.9999974)">
+      <rect
+         style="fill:url(#linearGradient4010);fill-opacity:1;stroke:none"
+         id="rect3016"
+         width="70"
+         height="90"
+         x="500"
+         y="157.36218"
+         ry="15" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot3028"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         transform="translate(427.65625,10.683701)"><flowRegion
+           id="flowRegion3030"><rect
+             id="rect3032"
+             width="68.00235"
+             height="34.938522"
+             x="75.3414"
+             y="177.73996" /></flowRegion><flowPara
+           id="flowPara3034"
+           style="font-size:22px">Gmsh</flowPara></flowRoot>    </g>
+    <g
+       id="g3920"
+       transform="translate(81.4375,15.434845)">
+      <rect
+         ry="5"
+         y="141.92734"
+         x="208.5625"
+         height="20"
+         width="50"
+         id="rect3864"
+         style="fill:url(#linearGradient3927);fill-opacity:1;stroke:none" />
+      <flowRoot
+         transform="translate(9.125,-133.2589)"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot3868"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3870"><rect
+             y="278.20737"
+             x="206.44128"
+             height="14.154816"
+             width="83.558716"
+             id="rect3872" /></flowRegion><flowPara
+           id="flowPara3874">vector</flowPara></flowRoot>    </g>
+    <g
+       id="g3964"
+       transform="translate(105,0)">
+      <rect
+         ry="15"
+         y="152.36218"
+         x="-35"
+         height="90"
+         width="165"
+         id="rect2991"
+         style="fill:url(#linearGradient4008);fill-opacity:1;stroke:none" />
+      <flowRoot
+         transform="translate(-99.34375,6.2748212)"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot3020"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3022"><rect
+             y="177.73996"
+             x="75.3414"
+             height="34.622223"
+             width="59.6586"
+             id="rect3024" /></flowRegion><flowPara
+           style="font-size:22px"
+           id="flowPara3026">QGIS</flowPara></flowRoot>    </g>
+    <g
+       id="g3938"
+       transform="translate(-25,-65)">
+      <rect
+         ry="5"
+         y="282.36218"
+         x="315"
+         height="20"
+         width="50"
+         id="rect3896"
+         style="fill:url(#linearGradient3945);fill-opacity:1;stroke:none" />
+      <flowRoot
+         transform="translate(116.77477,7.1974978)"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot3898"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3900"><rect
+             y="278.20737"
+             x="206.44128"
+             height="14.154816"
+             width="83.558716"
+             id="rect3902" /></flowRegion><flowPara
+           id="flowPara3904">raster</flowPara></flowRoot>    </g>
+    <rect
+       ry="5"
+       y="187.36218"
+       x="405"
+       height="25"
+       width="95"
+       id="rect3908"
+       style="fill:url(#linearGradient4107);fill-opacity:1;stroke:none" />
+    <flowRoot
+       transform="translate(207.16766,-88.064483)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3910"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3912"><rect
+           y="278.20737"
+           x="206.44128"
+           height="14.154816"
+           width="83.558716"
+           id="rect3914" /></flowRegion><flowPara
+         id="flowPara3916">mesh</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4090"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(322.5625,-70.824056)"><flowRegion
+         id="flowRegion4092"><rect
+           id="rect4094"
+           width="94.996216"
+           height="24.978874"
+           x="206.44128"
+           y="278.20737" /></flowRegion><flowPara
+         id="flowPara4096"
+         style="font-size:8px;text-align:center;text-anchor:middle">Domain &amp; mesh metric definitions</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3993"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(339.65625,-22.316296)"><flowRegion
+         id="flowRegion3995"><rect
+           id="rect3997"
+           width="99.00235"
+           height="28.938522"
+           x="75.3414"
+           y="177.73996" /></flowRegion><flowPara
+         id="flowPara3999"
+         style="font-size:22px">QMesh</flowPara></flowRoot>    <g
+       transform="translate(-83.5625,10.434845)"
+       id="g4012">
+      <rect
+         style="fill:#b5eeb5;fill-opacity:0.87671234;stroke:none"
+         id="rect4014"
+         width="85"
+         height="20"
+         x="208.5625"
+         y="146.92734"
+         ry="5" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4016"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         transform="translate(9.855838,-128.44254)"><flowRegion
+           id="flowRegion4018"><rect
+             id="rect4020"
+             width="83.558716"
+             height="14.154816"
+             x="206.44128"
+             y="278.20737" /></flowRegion><flowPara
+           id="flowPara4022">Vector Layers</flowPara></flowRoot>    </g>
+    <g
+       id="g4042"
+       transform="translate(-83.5625,65.434845)">
+      <rect
+         ry="5"
+         y="151.92734"
+         x="208.5625"
+         height="20"
+         width="85"
+         id="rect4044"
+         style="fill:#b5eeb5;fill-opacity:0.87671234;stroke:none" />
+      <flowRoot
+         transform="translate(9.855838,-122.81477)"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot4046"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4048"><rect
+             y="278.20737"
+             x="206.44128"
+             height="14.154816"
+             width="83.558716"
+             id="rect4050" /></flowRegion><flowPara
+           id="flowPara4052">Raster Layers</flowPara></flowRoot>    </g>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 160,177.36218 -3,10 3,0 3,0 z"
+       id="path3958"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4056"
+       d="m 160,217.36218 -3,-10 3,0 3,0 z"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 160,182.36218 0,26"
+       id="path4058"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4060"
+       d="m 500,192.36218 10,3 0,-3 0,-3 z"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 630,207.36218 -10,3 0,-3 0,-3 z"
+       id="path4062"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4064"
+       d="m 500,207.36218 120,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 290,167.36218 -10,-3 0,3 0,3 z"
+       id="path4066"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4068"
+       d="m 210,167.36218 10,-3 0,3 0,3 z"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 280,167.36218 -60,0"
+       id="path4070"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 340,162.36218 10,-3 0,3 0,3 z"
+       id="path4072"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4074"
+       d="m 405,192.36218 -25,-0.26227 0,-29.73773 -35,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4076"
+       d="m 405,207.36218 -10,-3 0,3 0,3 z"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 340,172.36218 20,0 0,34 35,0"
+       id="path4078"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4080"
+       d="m 340,227.36218 20,0 0,-19 35,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 320,177.36218 -3,10 3,0 3,0 z"
+       id="path4082"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4084"
+       d="m 320,217.36218 -3,-10 3,0 3,0 z"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 320,182.36218 0,28"
+       id="path4086"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 510,192.36218 120,0"
+       id="path4088"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       transform="translate(349.8125,-96.830558)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4109"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4111"><rect
+           y="278.20737"
+           x="206.44128"
+           height="12.985375"
+           width="37.496216"
+           id="rect4113" /></flowRegion><flowPara
+         style="font-size:8px;text-align:center;text-anchor:middle"
+         id="flowPara4115">mesh</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4117"
+       d="m 290,227.36218 -10,-3 0,3 0,3 z"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 210,227.36218 10,-3 0,3 0,3 z"
+       id="path4119"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4121"
+       d="m 280,227.36218 -60,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

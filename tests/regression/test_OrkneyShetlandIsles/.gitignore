@@ -1,0 +1,12 @@
+*.fld
+*.geo
+*.msh
+*.cli
+*.slf
+qgis.db
+*.nc.aux.xml
+domainPolygons.*
+*.png
+turbines.*
+*.nc
+turbineDetectors_UTM30N.txt

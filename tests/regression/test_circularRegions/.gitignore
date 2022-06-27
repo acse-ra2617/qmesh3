@@ -1,0 +1,12 @@
+*.pyc
+__pycache__
+*.dbf
+*.prj
+*.qpj
+*.shp
+*.shx
+*.cpg
+*.geo
+*.fld
+*.msh
+*.png
