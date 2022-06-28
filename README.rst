@@ -42,10 +42,11 @@ Installation:
 2. install `gmsh <https://installati.one/ubuntu/20.04/gmsh/>`_
 3. install `qgis <https://qgis.org/en/site/forusers/alldownloads.html>`_, however some people seem to have more success first doing "sudo apt update"\" and then "Sudo apt install qgis"
 4. install `qmesh3 <https://pypi.org/project/qmesh3/>`_
+5. testing installation (optional) > "python -m unittest discover <test_directory>"
 
 tutorials:
 
-- .
+-   `Semi automated Mesh Generation of the Coastal Oceans with Engineering Structures Using Satellite Data <https://www.dropbox.com/s/1bwrwjl51cnhhju/Semi-automated%20Mesh%20Generation%20of%20the%20Coastal%20Oceans%20with%20Engineering%20Structures%20Using%20Satellite%20Data.pdf?dl=0>`_
 - .
 
 
