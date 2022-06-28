@@ -1,7 +1,6 @@
 qmesh3
 =======
-
-Note: qmesh3 has been created as a temporary solution to allow qmesh to be installed again using pip to facilitate users access until the original qmesh updates are released.
+Qmesh3 has been created as a temporary solution to allow qmesh to function with python3 and QGIS3 within a functional pip install to facilitate users access until the original qmesh updates are released. This repository has been created by `Raul Adriaensen <https://www.linkedin.com/in/rauladriaensen/>`_ , contact email can be found `here <https://www.imperial.ac.uk/people/raul.adriaensen17>`_
 
 qmesh is a software package for creating high-quality meshes using `QGIS <https://www.qgis.org>`_ and `Gmsh <https://geuz.org/gmsh>`_.
 The meshes can be used in finite element numerical models such as `TELEMAC <http://www.opentelemac.org>`_, `Fluidity <https://www.fluidity-project.org>`_ and `Thetis <https://thetisproject.org/>`_.
@@ -33,3 +32,13 @@ You can access relevant documentation through the following avenues:
 
 * The `qmesh website <https://www.qmesh.org>`_.
 * The `qmesh synoptic manual <https://qmesh-synoptic-manual.readthedocs.io/en/latest>`_.
+
+Walk Through
+---------------
+
+Installation
+
+
+tutorials
+
+
