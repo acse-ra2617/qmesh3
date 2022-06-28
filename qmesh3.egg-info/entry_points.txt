@@ -15,3 +15,4 @@ GIT_SHA_KEY = setuptools_qmesh.command.egg_info:write_git_sha_key
 GMSH_BIN_PATH = setuptools_qmesh.command.egg_info:write_gmsh_bin_path
 LICENSE = setuptools_qmesh.command.egg_info:write_full_license
 QGIS_PATH = setuptools_qmesh.command.egg_info:write_qgis_path
+
