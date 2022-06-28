@@ -1,4 +1,4 @@
-qmesh3
+qmesh3 
 =======
 Qmesh3 has been created as a temporary solution to allow qmesh to function with python3 and QGIS3 within a functional pip install to facilitate users access until the original qmesh updates are released. This repository has been created by `Raul Adriaensen <https://www.linkedin.com/in/rauladriaensen/>`_ , contact email can be found `here <https://www.imperial.ac.uk/people/raul.adriaensen17>`_
 
@@ -36,9 +36,16 @@ You can access relevant documentation through the following avenues:
 Walk Through
 ---------------
 
-Installation
+Installation:
 
+1. install `GD-basisChangeTools/ <https://pypi.org/project/GFD-basisChangeTools/>`_
+2. install `gmsh <https://installati.one/ubuntu/20.04/gmsh/>`_
+3. install `qgis <https://qgis.org/en/site/forusers/alldownloads.html>`_, however some people seem to have more success first doing "sudo apt update"\" and then "Sudo apt install qgis"
+4. install `qmesh3 <https://pypi.org/project/qmesh3/>`_
 
-tutorials
+tutorials:
+
+- .
+- .
 
 
