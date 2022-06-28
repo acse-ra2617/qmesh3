@@ -1,0 +1,17 @@
+[distutils.commands]
+check_gmsh = setuptools_qmesh.command.check_gmsh:CheckGmsh
+check_qgis = setuptools_qmesh.command.check_qgis:CheckQgis
+
+[distutils.setup_keywords]
+gmsh_bin_path = setuptools_qmesh.dist:assert_path
+include_author_ids = setuptools.dist:assert_bool
+include_full_license = setuptools.dist:assert_bool
+include_git_sha_key = setuptools.dist:assert_bool
+qgis_path = setuptools_qmesh.dist:assert_path
+
+[egg_info.writers]
+AUTHORS.md = setuptools_qmesh.command.egg_info:write_author_ids
+GIT_SHA_KEY = setuptools_qmesh.command.egg_info:write_git_sha_key
+GMSH_BIN_PATH = setuptools_qmesh.command.egg_info:write_gmsh_bin_path
+LICENSE = setuptools_qmesh.command.egg_info:write_full_license
+QGIS_PATH = setuptools_qmesh.command.egg_info:write_qgis_path

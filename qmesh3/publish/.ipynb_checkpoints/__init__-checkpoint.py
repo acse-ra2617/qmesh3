@@ -1,4 +1,4 @@
-#    Copyright (C) 2016 Alexandros Avdis and others. See the AUTHORS file for a full list of copyright holders.
+#    Copyright (C) 2017 Alexandros Avdis and others. See the AUTHORS file for a full list of copyright holders.
 #
 #    This file is part of QMesh.
 #
@@ -15,4 +15,4 @@
 #    You should have received a copy of the GNU General Public License
 #    along with QMesh.  If not, see <http://www.gnu.org/licenses/>.
 
-from qmesh.mesh.mesh import *
+from qmesh3.publish.publisher import Publisher

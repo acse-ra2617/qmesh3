@@ -1,4 +1,4 @@
-#    Copyright (C) 2013 Alexandros Avdis and others. See the AUTHORS file for a full list of copyright holders.
+#    Copyright (C) 2017 Alexandros Avdis and others. See the AUTHORS file for a full list of copyright holders.
 #
 #    This file is part of QMesh.
 #
@@ -15,9 +15,4 @@
 #    You should have received a copy of the GNU General Public License
 #    along with QMesh.  If not, see <http://www.gnu.org/licenses/>.
 
-'''Package raster.
-
-Package containing tools for creation of mesh-size-metric fields.
-'''
-
-from qmesh.raster.meshMetricTools import *
+from qmesh3.publish.publisher import Publisher

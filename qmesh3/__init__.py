@@ -17,17 +17,17 @@
 import os
 from  qgis.core import QgsApplication
 
-import qmesh.vector
-import qmesh.raster
-import qmesh.mesh
-import qmesh.publish
-import qmesh.lib
-from qmesh.config import *
+import qmesh3.vector
+import qmesh3.raster
+import qmesh3.mesh
+import qmesh3.publish
+import qmesh3.lib
+from qmesh3.config import *
 
 import pkg_resources
 #Set the version attribute
 try:
-    __packaged_distro__ = pkg_resources.get_distribution('qmesh')
+    __packaged_distro__ = pkg_resources.get_distribution('qmesh3')
     __version__ = __packaged_distro__.version
 except (pkg_resources.DistributionNotFound, AttributeError):
     __version__ = None

@@ -15,5 +15,9 @@
 #    You should have received a copy of the GNU General Public License
 #    along with QMesh.  If not, see <http://www.gnu.org/licenses/>.
 
-from qmesh.vector.shapefileTools import *
-from qmesh.vector.primitiveShapes import *
+'''Package raster.
+
+Package containing tools for creation of mesh-size-metric fields.
+'''
+
+from qmesh3.raster.meshMetricTools import *

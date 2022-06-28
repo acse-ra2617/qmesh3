@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: qmesh3
+Version: 1.0.3
+Summary: Finite Element meshes from GIS data.
+Home-page: http://www.qmesh.org
+Download-URL: https://github.com/acse-ra2617/qmesh3/releases/tag/1.0.3
+Author: The QMesh Development Team.
+Author-email: develop@qmesh.org
+License: GPLv3
+Keywords: GIS,mesh generation
+Provides: qmesh3
+Provides-Extra: RDM
+License-File: LICENSE
+License-File: AUTHORS
+License-File: AUTHORS.md
+
 qmesh3
 =======
 
