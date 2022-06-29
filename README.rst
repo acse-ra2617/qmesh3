@@ -49,13 +49,13 @@ tutorials:
 All key data files and videos have been placed together under this `Onedrive <https://1drv.ms/u/s!AglgFElvf_OWl8gIx0FxAIcdOhUv8g?e=VrIak0>`_. . A brief description of the files:
 
 -   `Semi automated Mesh Generation of the Coastal Oceans with Engineering Structures Using Satellite Data <https://www.dropbox.com/s/1bwrwjl51cnhhju/Semi-automated%20Mesh%20Generation%20of%20the%20Coastal%20Oceans%20with%20Engineering%20Structures%20Using%20Satellite%20Data.pdf?dl=0>`_
-  - great tutorial to get started, this was originally run on docker but can now be done without if the above installation is followed
+   - great tutorial to get started, this was originally run on docker but can now be done without if the above installation is followed
 - additioanl_tutorials_and_docker_installation
-  - this material helped me to get going and explore all the options from the docker, qmesh-cli and learn some qgis tricks
+   - this material helped me to get going and explore all the options from the docker, qmesh-cli and learn some qgis tricks
 - installating_qmesh_manually
-  - in case the pip install breaks, instructions on how to setup qmesh manually can be found here
+   - in case the pip install breaks, instructions on how to setup qmesh manually can be found here
 - tutorials_Angeloudis_Athnasios
-  - an additional set of tutorials shared 
+   - an additional set of tutorials shared 
   
 Please read the relevant readme files in the OneDrive and the email chains to find the full information and names of those who kindly put all this content together
 
