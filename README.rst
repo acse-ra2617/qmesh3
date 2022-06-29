@@ -36,7 +36,7 @@ You can access relevant documentation through the following avenues:
 Walk Through
 ---------------
 
-Installation:
+*Installation*:
 
 1. install `GD-basisChangeTools/ <https://pypi.org/project/GFD-basisChangeTools/>`_
 2. install `gmsh <https://installati.one/ubuntu/20.04/gmsh/>`_
@@ -44,7 +44,7 @@ Installation:
 4. install `qmesh3 <https://pypi.org/project/qmesh3/>`_
 5. testing installation (optional) > "python -m unittest discover <test_directory>"
 
-tutorials:
+*tutorials*:
 
 All key data files and videos have been placed together under this `Onedrive <https://1drv.ms/u/s!AglgFElvf_OWl8gIx0FxAIcdOhUv8g?e=VrIak0>`_. . A brief description of the files:
 
