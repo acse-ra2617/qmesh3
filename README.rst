@@ -59,3 +59,8 @@ All key data files and videos have been placed together under this `Onedrive <ht
   
 Please read the relevant readme files in the OneDrive and the email chains to find the full information and names of those who kindly put all this content together
 
+Fixes required
+---------------
+- Currently runs until it saves the created mesh, but fails to convert this mesh into a shapefile again. This is due it being build on gmsh 2 and not 4 which uses a fileformat which maybe cannot be read by the program anymore,  possible solutions are:
+   - remove assert satement on line 927 in qmesh/mesh/mesh.py and hope the rest of the code can deal with the new mesh format
+   - or check the file format numebr in an if statement and repeat implementation adapted for the new file format version
