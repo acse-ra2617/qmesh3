@@ -278,6 +278,7 @@ class Geometry(object):
         """
         for physicalID in physicalIDsDictionary:
             lines = physicalIDsDictionary[physicalID]
+            lines = [x+1 for x in lines]
             #TODO: check that the lines actually exist. Raise exception if it does not
             if physicalID in self.physicalLineIDs:
                 self.physicalLineIDs[physicalID] += lines
@@ -312,6 +313,7 @@ class Geometry(object):
         """
         for physicalID in physicalIDsDictionary:
             surfaces = physicalIDsDictionary[physicalID]
+            surfaces = [x+1 for x in surfaces]
             #TODO: check that the surfaces actually exist. Raise exception if it does not
             if physicalID in self.physicalSurfaceIDs:
                 self.physicalSurfaceIDs[physicalID] += surfaces
