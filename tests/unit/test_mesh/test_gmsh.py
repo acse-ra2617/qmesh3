@@ -114,7 +114,7 @@ class TestGGeometryPoints(unittest.TestCase):
         myGeometry = qmesh3.mesh.Geometry()
         myGeometry.addPoint([0,1,1])
         myGeometry.addPoint([0,1,1])
-        self.assertTrue(myGeometry.points == {0:[0,1,1], 1:[0,1,1]})
+        self.assertTrue(myGeometry.points == {1:[0,1,1], 2:[0,1,1]})
 
     def test_remove_existing_point(self):
         #Try importing qmesh. If an ImportError exception is thrown, then
@@ -128,7 +128,7 @@ class TestGGeometryPoints(unittest.TestCase):
         qmesh3.LOG.setLevel('WARNING')
         myGeometry = qmesh3.mesh.Geometry()
         myGeometry.addPoint([0,1,1])
-        myGeometry.removePoint(0)
+        myGeometry.removePoint(1)
         self.assertTrue(myGeometry.points == {})
 
     def test_remove_nonexisting_point(self):
@@ -144,7 +144,7 @@ class TestGGeometryPoints(unittest.TestCase):
         myGeometry = qmesh3.mesh.Geometry()
         myGeometry.addPoint([0,1,1])
         try:
-            myGeometry.removePoint(1)
+            myGeometry.removePoint(2)
         except AssertionError:
             self.assertTrue(True)
             return
@@ -163,10 +163,10 @@ class TestGGeometryPoints(unittest.TestCase):
         myGeometry = qmesh3.mesh.Geometry()
         myGeometry.addPoint([0,1,1])
         myGeometry.addPoint([0,1,2])
-        self.assertTrue(myGeometry.getPoint(0) == [0,1,1])
-        self.assertTrue(myGeometry.getPoint(1) == [0,1,2])
+        self.assertTrue(myGeometry.getPoint(1) == [0,1,1])
+        self.assertTrue(myGeometry.getPoint(2) == [0,1,2])
         try:
-            self.assertTrue(myGeometry.getPoint(2))
+            self.assertTrue(myGeometry.getPoint(3))
         except AssertionError:
             self.assertTrue(True)
             return
@@ -205,7 +205,7 @@ class TestGGeometryPoints(unittest.TestCase):
         myGeometry = qmesh3.mesh.Geometry()
         points = {0: [0,1,0], 1:[1,1,2], 2:[3,54,1]}
         myGeometry.addPointsFromDictionary(points)
-        self.assertTrue(myGeometry.getPoint(0) == [0,1,0])
+        self.assertTrue(myGeometry.getPoint(1) == [0,1,0])
 
     def test_add_points_from_dict_existing(self):
         #Try importing qmesh. If an ImportError exception is thrown, then
@@ -221,7 +221,7 @@ class TestGGeometryPoints(unittest.TestCase):
         myGeometry.addPoint([0,1,1])
         points = {0: [0,1,0], 1:[1,1,2], 2:[3,54,1]}
         myGeometry.addPointsFromDictionary(points)
-        self.assertTrue(myGeometry.getPoint(0) == [0,1,1])
+        self.assertTrue(myGeometry.getPoint(1) == [0,1,1])
         self.assertTrue(myGeometry.pointsCount() == 4)
 
     def test_add_points_existing(self):
@@ -238,7 +238,7 @@ class TestGGeometryPoints(unittest.TestCase):
         myGeometry.addPoint([0,1,1])
         points = [[0,1,0], [1,1,2], [3,54,1]]
         myGeometry.addPoints(points)
-        self.assertTrue(myGeometry.getPoint(0) == [0,1,1])
+        self.assertTrue(myGeometry.getPoint(1) == [0,1,1])
         self.assertTrue(myGeometry.pointsCount() == 4)
 
 
@@ -312,10 +312,10 @@ class TestGGeometryLines(unittest.TestCase):
         G = qmesh3.mesh.Geometry()
         G.addPoints([[0,0,0], [0,1,0], [1,1,0], [1,0,0]])
         G.addLineSegment([0,1])
-        G.removeLineSegment(0)
+        G.removeLineSegment(1)
         self.assertTrue(G.lineSegmentsCount() == 0)
         try:
-            G.removeLineSegment(0)
+            G.removeLineSegment(1)
         except AssertionError:
             self.assertTrue(True)
             return
@@ -335,7 +335,7 @@ class TestGGeometryLines(unittest.TestCase):
         G.addPoints([[0,0,0], [0,1,0], [1,1,0], [1,0,0]])
         G.addLineSegment([0,1])
         self.assertTrue(G.lineSegmentsCount() == 1)
-        line = G.getLineSegment(0)
+        line = G.getLineSegment(1)
         self.assertTrue(line == [0,1])
 
 
@@ -354,7 +354,7 @@ class TestGGeometryLines(unittest.TestCase):
         G.addLineSegment([0,1])
         self.assertTrue(G.lineSegmentsCount() == 1)
         try:
-            G.getLineSegment(1)
+            G.getLineSegment(2)
         except AssertionError:
             self.assertTrue(True)
             return
@@ -447,10 +447,10 @@ class TestGGeometryBSplines(unittest.TestCase):
         G = qmesh3.mesh.Geometry()
         G.addPoints([[0,0,0], [0,1,0], [1,1,0], [1,0,0]])
         G.addBspline([0,1,2])
-        G.removeBspline(0)
+        G.removeBspline(1)
         self.assertTrue(G.bsplinesCount() == 0)
         try:
-            G.removeLineSegment(0)
+            G.removeLineSegment(1)
         except AssertionError:
             self.assertTrue(True)
             return
@@ -470,7 +470,7 @@ class TestGGeometryBSplines(unittest.TestCase):
         G.addPoints([[0,0,0], [0,1,0], [1,1,0], [1,0,0]])
         G.addBspline([0,1,2])
         self.assertTrue(G.bsplinesCount() == 1)
-        line = G.getBspline(0)
+        line = G.getBspline(1)
         self.assertTrue(line == [0,1,2])
 
 
@@ -489,7 +489,7 @@ class TestGGeometryBSplines(unittest.TestCase):
         G.addBspline([0,1,2])
         self.assertTrue(G.bsplinesCount() == 1)
         try:
-            G.getBspline(1)
+            G.getBspline(2)
         except AssertionError:
             self.assertTrue(True)
             return

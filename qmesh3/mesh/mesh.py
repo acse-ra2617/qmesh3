@@ -28,11 +28,11 @@ class Geometry(object):
     def __init__(self):
         """ Initialise a new Geometry object. """
         LOG.info("Initialising geometry...")
-        self.pointIndex = 0
-        self.lineIndex = 0
-        self.lineLoopIndex = 0
-        self.surfaceIndex = 0
-        self.volumeIndex = 0
+        self.pointIndex = 1
+        self.lineIndex = 1
+        self.lineLoopIndex = 1
+        self.surfaceIndex = 1
+        self.volumeIndex = 1
         self.points={}
         self.lines={}
         self.bsplines={}
@@ -74,7 +74,7 @@ class Geometry(object):
         :arg int pointIndex: The index of the point to remove.
         :rtype: None
         """
-        assert pointIndex < (len(self.points))
+        assert pointIndex < (len(self.points)+1)
         del self.points[pointIndex]
 
     def getPoint(self, pointIndex):
@@ -84,7 +84,7 @@ class Geometry(object):
         :rtype: list
         :returns: The coordinates of the point in 3D space (in a list).
         """
-        assert pointIndex < (len(self.points))
+        assert pointIndex < (len(self.points)+1)
         return self.points[pointIndex]
 
     def addPointsFromDictionary(self, pointDictionary):
@@ -108,7 +108,7 @@ class Geometry(object):
         """
         assert type(pointIndices) == list
         for pointIndex in pointIndices:
-            assert pointIndex < (len(self.points))
+            assert pointIndex < (len(self.points)+1)
         self.lines[self.lineIndex] = pointIndices
         self.lineIndex += 1
         return self.lineIndex-1
@@ -119,7 +119,7 @@ class Geometry(object):
         :arg int lineIndex: The index of the line segment in the geometry.
         :rtype: None
         """
-        assert lineIndex < (len(self.lines))
+        assert lineIndex < (len(self.lines)+1)
         del self.lines[lineIndex]
 
     def getLineSegment(self, lineIndex):
@@ -130,7 +130,7 @@ class Geometry(object):
         :returns: The line segment, in the form of a list of points.
         """
         
-        assert lineIndex < (len(self.lines))
+        assert lineIndex < (len(self.lines)+1)
         return self.lines[lineIndex]
 
     def addLineSegmentsFromDictionary(self, lineDictionary):
@@ -157,17 +157,17 @@ class Geometry(object):
     def addBspline(self, pointIndices):
         assert type(pointIndices) == list
         for pointIndex in pointIndices:
-            assert pointIndex < (len(self.points))
+            assert pointIndex < (len(self.points)+1)
         self.bsplines[self.lineIndex] = pointIndices
         self.lineIndex += 1
         return self.lineIndex-1
 
     def removeBspline(self, lineIndex):
-        assert lineIndex < (len(self.bsplines))
+        assert lineIndex < (len(self.bsplines)+1)
         del self.bsplines[lineIndex]
 
     def getBspline(self, lineIndex):
-        assert lineIndex < (len(self.bsplines))
+        assert lineIndex < (len(self.bsplines)+1)
         return self.bsplines[lineIndex]
 
     def bsplinesCount(self):
@@ -613,20 +613,20 @@ class Domain(object):
         LOG.debug('        Found '+str(pointsInLines)+' points - extracted from lines.')
         LOG.debug('        Found '+str(len(temp_pointDictionary))+' points after removing duplicates.')
         #Construct the point-dictionary now duplicates are gone.
-        pointIndex = 0
+        pointIndex = 1
         pointDictionary = {}
         for point in list(temp_pointDictionary.values()):
             pointDictionary[pointIndex] = [point.x(),point.y(), 0.0]
             pointIndex +=1
         #Construct the inverse-point-dictionary
-        pointIndex = 0
+        pointIndex = 1
         invPointDictionary = {}
         for point in list(pointDictionary.values()):
             invPointDictionary[str([point[0],point[1],0.0])] = pointIndex
             pointIndex +=1
         #Construct the line ID-point ID dictionary.
         LOG.debug('        Constructing lineID-pointID dictionary...')
-        lineIndex = 0
+        lineIndex = 1
         lineIDpointID_dictionary = {}
         for line in lines:
             pointIndices = []
@@ -637,7 +637,7 @@ class Domain(object):
             lineIndex += 1
         #Construct the ring ID-point ID dictionary and the ring-ringID dictionary.
         LOG.debug('        Constructing ringID-pointID dictionary...')
-        ringIndex = 0
+        ringIndex = 1
         ringIDPointID_dictionary = {}
         ringID_dictionary = {}
         ringsInPolygonFile = 0

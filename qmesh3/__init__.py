@@ -29,47 +29,49 @@ import pkg_resources
 try:
     __packaged_distro__ = pkg_resources.get_distribution('qmesh3')
     __version__ = __packaged_distro__.version
-except (pkg_resources.DistributionNotFound, AttributeError):
-    __version__ = None
+except (pkg_resources.DistributionNotFound, AttributeError, NameError):
+    __version__ = "local"
     LOG.warning('Could not find qmesh version information. Provenance information is incomplete.')
 #Set the git-sha-key attribute
 try:
     __packaged_distro__.has_metadata('GIT_SHA_KEY')
     __git_sha_key__ = __packaged_distro__.get_metadata('GIT_SHA_KEY')
-except (AttributeError, FileNotFoundError):
-    __git_sha_key__ = None
+except (AttributeError, FileNotFoundError, NameError):
+    __git_sha_key__ = "local"
     LOG.warning('Could not find qmesh origin git SHA key. Provenance information is incomplete.')
 #Set the license attribute
 try:
     __packaged_distro__.has_metadata('LICENSE')
     __license__ = __packaged_distro__.get_metadata('LICENSE')
-except (AttributeError, FileNotFoundError):
-    __license__ = None
+except (AttributeError, FileNotFoundError, NameError):
+    __license__ = ""
     LOG.warning('Could not find complete license statement. Provenance information is incomplete.')
     LOG.warning('Qmesh is distributed under GPLv3. Please observe the license at .')
 #Set the authors attribute
 try:
     __packaged_distro__.has_metadata('AUTHORS.md')
     __authors__ = __packaged_distro__.get_metadata('AUTHORS.md')
-except (AttributeError, FileNotFoundError):
-    __authors__ = None
+except (AttributeError, FileNotFoundError, NameError):
+    __authors__ = ""
     LOG.warning('Could not find qmesh authors information. Provenance information is incomplete.')
 # Set the gmsh-path attribute
 try:
     __packaged_distro__.has_metadata('GMSH_BIN_PATH')
     __gmsh_bin_path__ = __packaged_distro__.get_metadata('GMSH_BIN_PATH')
-except (AttributeError, FileNotFoundError):
-    __gmsh_bin_path__ = None
+except (AttributeError, FileNotFoundError, NameError):
+    __gmsh_bin_path__ = "/usr/bin"
     LOG.warning('Could not find gmsh binary path specification. Mesh generation might fail.')
 # Set the qgis-install-path attribute
 try:
     __packaged_distro__.has_metadata('QGIS_PATH')
     __qgis_path__ = __packaged_distro__.get_metadata('QGIS_PATH')
-except (AttributeError, FileNotFoundError):
-    __qgis_path__ = None
+except (AttributeError, FileNotFoundError, NameError):
+    __qgis_path__ = "/usr/local/"
     LOG.warning('Could not find qgis path specification. qgis initialisation might fail.')
-
-del __packaged_distro__
+try:
+    del __packaged_distro__
+except NameError:
+    pass
 
 # Set-up environment and initialise qgis, without graphics.
 # Suppress verbose debugging Qt messages
